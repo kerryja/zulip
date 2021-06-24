@@ -563,3 +563,20 @@ div.overlay {
         display: unset;
     }
 }
+
+.animated-purple-button {
+    color: hsl(0, 0%, 100%);
+    transition: all 80ms linear;
+    box-shadow: none;
+    background-color: hsl(240, 41%, 50%);
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    white-space: nowrap;
+
+    &:hover {
+        background-color: hsl(240, 40%, 33%);
+        box-shadow: 0 1px 4px hsl(0, 0%, 0%, 0.3);
+    }
+}
